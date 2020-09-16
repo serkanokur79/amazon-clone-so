@@ -1,0 +1,41 @@
+.bought__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+}
+.bought__image {
+  height: 200px;
+}
+
+.bought__image > img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.bought__info {
+  margin: 20px;
+  padding: 0;
+  font-weight: 800;
+  height: max-content;
+}
+
+.bought__rating {
+  display: flex;
+}
+button {
+  background: #f0c14b;
+  border-radius: 2px;
+  height: 20px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
